@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1291141449762360096}
   - component: {fileID: 6378565750999786670}
-  - component: {fileID: 1319880468631565766}
+  - component: {fileID: -1665434821395207327}
   m_Layer: 0
-  m_Name: Pillar
+  m_Name: Spear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.0884, y: 4.3832, z: -0.21334471}
-  m_LocalScale: {x: 0.7452, y: 5.7530317, z: 1}
+  m_LocalScale: {x: 1, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,18 +74,18 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.83137256}
+  m_Sprite: {fileID: 21300000, guid: c1ac8da29aaf36e47bb0ef2d0640e409, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 12.8, y: 12.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1319880468631565766
+--- !u!114 &-1665434821395207327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,7 +94,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1972881438007460238}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 460d8a081602332469d9b18488a887b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 29b3ff2107e6ace4cb5fddd761f86dd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pillarSpeed: 2
+  spearSpeed: 2
