@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using AnimatedBattleText.Examples;
 using UnityEngine;
 
 public class DragonCollision : MonoBehaviour
@@ -8,7 +9,10 @@ public class DragonCollision : MonoBehaviour
     {
         if (spear.gameObject.CompareTag("Border"))
         {
-            Debug.Log("Game Over");
+            Debug.Log("GAME OVER");
+            GameManager.Instance.PauseGame();
+            GameManager.Instance.gameOverUI.SetActive(true);
+            GameManager.Instance.DisplayKO();
         }
     }
 }
