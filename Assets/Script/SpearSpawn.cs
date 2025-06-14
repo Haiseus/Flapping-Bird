@@ -23,8 +23,8 @@ public class SpearSpawn : MonoBehaviour
             float spawnTimer = 1.0f;
             timer = spawnTimer;
 
-            Instantiate(spear, new Vector3(spear.transform.position.x + 4, 0 + Random.Range(3.8f, 7.6f), -1), new Quaternion(0, 0, 180, 0));
-            Instantiate(spear, new Vector3(spear.transform.position.x + 4, -(0 + Random.Range(3.8f, 7.6f)), -1), new Quaternion(0, 0, 0, 0));
+            Instantiate(spear, new Vector3(spear.transform.position.x + 4, 0 + Random.Range(5.25f, 8f), -1), new Quaternion(0, 0, 180, 0));
+            Instantiate(spear, new Vector3(spear.transform.position.x + 4, -(0 + Random.Range(5.25f, 8f)), -1), new Quaternion(0, 0, 0, 0));
         }
     }
 }
